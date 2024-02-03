@@ -12,7 +12,7 @@ int main(int argc, char **argv) {
     
     while(ros::ok()){
         ros::spinOnce();
-        cout << "publishing data";
+        //cout << "publishing data";
         //obj.publish_data();
         //ROS_INFO("publishing command msg");
     }
